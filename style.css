@@ -1,0 +1,116 @@
+.img {
+border: solid; 
+border-color: black;
+border-width: 5px;
+margin-left: auto;
+margin-right: auto;
+display:block;
+width: 70%;
+height: auto;
+user-select: none;
+padding: 0;
+background-color:whitesmoke;
+
+}
+
+
+
+br{
+    user-select: none;
+}
+
+p{
+font-family: Calibri;
+font-size: medium;
+color: midnightblue;
+
+}
+
+
+
+.map-container {
+  display: flex;
+  position: relative; /* Needed for absolute positioning of landmarks */
+  }
+
+  .landmarks {
+  position: absolute; /* This can be removed if using flexbox for alignment */
+  top: 0;
+  left: 0;
+  display: flex; /* Activate flexbox for child elements */
+  width: 100%; /* Ensures landmarks scale with the container */
+  height: 100%;
+  justify-content: space-between;
+  }
+
+  .city {
+  width: 10px; /* Size of the dot */
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  flex-grow: 0; 
+  justify-self: flex-start;
+  align-self: flex-start; 
+  }
+
+  .kathmandu {
+  margin-top: 26%;
+  margin-left:60%;
+  }
+  
+  .lumbini {
+  margin-top: 25%;
+  margin-left:40%;
+  }
+
+  .chitwan{
+  margin-top: 30%;
+  margin-left:40%;
+  }
+
+  .linejasto{
+    display: flex;
+    position:absolute;
+    width:100% ;
+    height: 50px;
+    background-color: #B6B6B6;
+    padding: 8px;
+    color: white;
+    font-family: Helvetica;
+    margin:-10px -10px;
+    text-align:center;
+
+  }
+  body{
+  overflow: hidden;
+  background-color: #110D11;
+}
+
+.Headtext{
+  text-align: center;
+  font-size: large;
+  color: azure;
+  padding-top: 15px;
+  border:solid black;
+  border-spacing: 5px;
+  background-color: black;
+  padding-left: 3px;
+  padding-right:3px;
+  padding-top:10px ;
+  border-radius: 12%;
+}
+.input-style {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  margin-left: 5;
+
+}
+
+.input-style:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
